@@ -150,7 +150,7 @@ done
 ## 🐳 Installation
 ```bash
 cd ~
-rm -rf mmgcs
+sudo rm -rf mmgcs
 git clone https://github.com/MAV-Manager/mmgcs_public.git mmgcs
 cd mmgcs
 docker compose -f docker-compose.prod.yml down
