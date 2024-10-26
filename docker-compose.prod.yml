@@ -15,6 +15,7 @@ services:
 
   frontend:
     image: judahpaul/mmgcs
+    platform: linux/arm64
     devices:
       - "/dev/ttyACM0:/dev/ttyACM0"
     ports:
